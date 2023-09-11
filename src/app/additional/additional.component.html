@@ -1,0 +1,14 @@
+<p>additional works!</p>
+<div> counter {{ counter() }}</div>
+<hr/>
+
+<div>signal: {{ value() }} </div>
+<div>rxjs: {{ value$ | async }} </div>
+<hr/>
+
+<div>signal B: {{ valueB() }} </div>
+<hr/>
+
+<div>{{ value3() }}</div>
+<button (click)="update('1')">update 1</button>
+<button (click)="update('2')">update 2</button>
